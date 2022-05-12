@@ -1,9 +1,8 @@
 .barraDerecha {
-    height: 100vh;
-    width: 4vw;
+    width: 72px;
     margin: 0%;
     background-color: #202225;
     align-content: center;
     justify-content: center;
-    grid-template-rows: repeat(auto-fill, minmax(200vh, 1fr));
+    
 }

@@ -1,12 +1,39 @@
+.invitarGente{
+background-color: none;
+align-content: center;
+justify-content: center;
+align-items: center;
+}
+
 .menuPersonas {
     background-color: #2f3136;
-    grid-template-rows: repeat(auto-fill, minmax(100vh, 1fr));
-    overflow: scroll;
+    grid-template-rows: repeat(auto-fill, minmax(240vh, 1fr));
+    overflow: hidden scroll; padding-right: 0px;
+    width: min-content;
 }
 
 .menuPersonas::-webkit-scrollbar {
-    width: 7px;
-    background-color: blueviolet;
+    width: 4px;
+    color: black;
+    
+}
+.contenedor {
+    height: fit-content;
+    width: 100%;
+    font-size: 100%;
+    text-align: -webkit-center;
+    margin-bottom: 6px;
+    margin: 1px;
+}
+.usuarioYo{
+width: fit-content;
+height: 20px;
+background-color: red;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+position: sticky;
+color:aliceblue
 }
 
 .persojunior {
@@ -26,7 +53,6 @@
 
 .menu1:hover {
     background-color: #3c3e45;
-    border-radius: 6px;
     overflow: hidden;
     opacity: 0.7;
     cursor: pointer;
@@ -41,3 +67,4 @@
 .tittleGrupoMenu1:hover{
     color: white;
 }
+
