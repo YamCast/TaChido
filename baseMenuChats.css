@@ -9,7 +9,7 @@ align-items: center;
     background-color: #2f3136;
     grid-template-rows: repeat(auto-fill, minmax(240vh, 1fr));
     overflow: hidden scroll; padding-right: 0px;
-    width: min-content;
+    color: #8e9297;
 }
 
 .menuPersonas::-webkit-scrollbar {
@@ -25,15 +25,17 @@ align-items: center;
     margin-bottom: 6px;
     margin: 1px;
 }
-.usuarioYo{
-width: fit-content;
+.nomServer{
+width: 100%;
 height: 20px;
-background-color: red;
-font-size: 14px;
-line-height: 18px;
-text-align: center;
-position: sticky;
+font-size: 20px;
+padding: 4px;
+text-align: left;
 color:aliceblue
+}
+
+.nomServer:hover{
+   background-color: #3c3e45;
 }
 
 .persojunior {
@@ -49,6 +51,8 @@ color:aliceblue
     width: 10vw;
     display: flex;
     margin: 3px;
+    align-items: center;
+
     }
 
 .menu1:hover {
@@ -57,6 +61,7 @@ color:aliceblue
     opacity: 0.7;
     cursor: pointer;
     color: white;
+    border-radius: 20%;
     }
 
 .tittleGrupoMenu1 {
@@ -66,5 +71,6 @@ color:aliceblue
 
 .tittleGrupoMenu1:hover{
     color: white;
+    
 }
 
