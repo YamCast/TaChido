@@ -1,76 +1,75 @@
 .invitarGente{
-background-color: none;
-align-content: center;
-justify-content: center;
-align-items: center;
-}
-
-.menuPersonas {
-    background-color: #2f3136;
-    grid-template-rows: repeat(auto-fill, minmax(240vh, 1fr));
-    overflow: hidden scroll; padding-right: 0px;
-    color: #8e9297;
-}
-
-.menuPersonas::-webkit-scrollbar {
-    width: 4px;
-    color: black;
-    
-}
-.contenedor {
-    height: fit-content;
-    width: 100%;
-    font-size: 100%;
-    text-align: -webkit-center;
-    margin-bottom: 6px;
-    margin: 1px;
-}
-.nomServer{
-width: 100%;
-height: 20px;
-font-size: 20px;
-padding: 4px;
-text-align: left;
-color:aliceblue
-}
-
-.nomServer:hover{
-   background-color: #3c3e45;
-}
-
-.persojunior {
-    width: fit-content;
-    height: fit-content;
-    gap: 2px;
-    justify-content: center;
+    background-color: none;
     align-content: center;
-}
-
-.menu1 {
-    height: 5vh;
-    width: 10vw;
-    display: flex;
-    margin: 3px;
+    justify-content: center;
     align-items: center;
-
     }
-
-.menu1:hover {
-    background-color: #3c3e45;
-    overflow: hidden;
-    opacity: 0.7;
-    cursor: pointer;
-    color: white;
-    border-radius: 20%;
-    }
-
-.tittleGrupoMenu1 {
-    padding: 2px;
-    font-family: 'Koulen', cursive;
-}
-
-.tittleGrupoMenu1:hover{
-    color: white;
     
-}
+    .menuPersonas {
+        background-color: #2f3136;
+        grid-template-rows: repeat(auto-fill, minmax(240vh, 1fr));
+        overflow: hidden scroll; padding-right: 0px;
+        color: #8e9297;
+    }
+    
+    .menuPersonas::-webkit-scrollbar {
+        width: 4px;
+        color: black;
+        
+    }
+    .contenedor {
+        height: fit-content;
+        width: 100%;
+        font-size: 100%;
+        text-align: -webkit-center;
+        margin-bottom: 6px;
+        margin: 1px;
+    }
+    .nomServer{
+    width: 100%;
+    height: 20px;
+    padding: 4px;
+    text-align: left;
+    color:aliceblue
+    }
+    
 
+
+    .nomServer:hover{
+       background-color: #3c3e45;
+    }
+    
+    .persojunior {
+        width: fit-content;
+        height: fit-content;
+        gap: 2px;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .menu1 {
+        height: 5vh;
+        display: flex;
+        margin: 3px;
+        align-items: center;
+    
+        }
+    
+    .menu1:hover {
+        background-color: #3c3e45;
+        overflow: hidden;
+        opacity: 0.7;
+        cursor: pointer;
+        color: white;
+        border-radius: 20%;
+        }
+    
+    .tittleGrupoMenu1 {
+        padding: 2px;
+        font-family: 'Koulen', cursive;
+    }
+    
+    .tittleGrupoMenu1:hover{
+        color: white;
+        
+    }
