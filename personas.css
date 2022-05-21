@@ -1,9 +1,52 @@
-.barraDerecha {
+.imagenesziquierda{
+    height: 6vh;
+    display: flex;
+    margin: 3px;
+    align-items: center;
+    border-radius: 40%;
+    margin: 5px;
+    
+}
+
+.barraIzquierda {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: -webkit-center;
     height: 100vh;
     width: 4vw;
     margin: 0%;
     background-color: #202225;
-    align-content: center;
-    justify-content: center;
-    grid-template-rows: repeat(auto-fill, minmax(200vh, 1fr));
+}
+
+
+
+.servidores{
+    display: grid;
+    height: 10%;
+    width: 100%;
+    border-radius: 30%;
+}
+
+
+.barraDerecha{
+    align-self: flex-end;
+    display: grid;
+    flex: 1;
+    height: 95vh;
+    grid-template-rows: 200px;
+    margin: 0%;
+    background-color: #2f3136;
+}
+
+.contenebarraDerecha {
+    height: 10vh;
+    width: 100%;
+    height: fit-content;
+    margin: 3px;
+    align-items: center;
+    background-color: aqua;
+}
+
+.contenebarraDerecha:hover{
+background-color: blue;
 }
