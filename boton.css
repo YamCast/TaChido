@@ -1,4 +1,185 @@
-.boton{
-background-color:blueviolet;
-border-radius: 40%;
+.barraIzquierda {
+    min-height: 0px;
+    min-width:72px; 
+    overflow: auto;
 }
+
+.barraIzquierda::-webkit-scrollbar {
+    width: 1px;
+}
+
+.linea{
+width: 6px;
+height: 50%;
+border-radius: 10px;
+margin: 0px;
+background-color: transparent;
+}
+
+
+.cajaIconos {
+    width: 100%;
+    height: 55px;
+    display:flex;
+    column-gap: 3px;
+align-items: center;
+}
+
+.cajaIconos:hover .linea {
+    background-color: aliceblue;
+}
+
+.boton {
+    background-color: blueviolet;
+    border-radius: 40%;
+    align-self: center;
+
+}
+
+/* para icono y bloques discord*/
+.btnicono {
+    height: 50px;
+    width: 50px;
+    background-image: url("images/icono.png");
+    border-radius: 50%;
+    background-position: 50% 50%;
+    border-color: #202225;
+    transition: 0.3s;
+}
+
+.espIcono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+/* fin icono ciscord*/
+
+
+.btn1 {
+    background-image: url("images/servidores/server1.png");
+    width: 50px;
+    height: 50px;
+    background-position: 50% 50%;
+    border-radius: 50%;
+    border-color: #202225;
+    transition: 0.3s;
+}
+
+.btn2 {
+    background-image: url("images/servidores/server2.png");
+    width: 50px;
+    height: 50px;
+    background-position: 20% 10%;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.btn3 {
+    background-image: url("images/servidores/server3.png");
+    background-position: 50% 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.3s;
+
+}
+
+.btn4 {
+    background-image: url("images/servidores/server4.png");
+    background-position: 80% 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.anadir {
+    background-image: url("images/servidores/plus.png");
+    background-position: 50% 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.3s;
+    transition: 0.3s;
+}
+
+.explora {
+    background-image: url("images/servidores/comp.png");
+    background-position: 50% 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.3s;
+    transition: 0.3s;
+}
+
+.desk {
+    background-image: url("images/servidores/down.png");
+    background-position: 50% 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.3s;
+    transition: 0.3s;
+}
+
+/*fin botones*/
+.imagenesziquierda {
+    display: table;
+    align-items: center;
+    max-width: 3px;
+}
+
+
+
+.tippy-tooltip.tomato-theme {
+    background-color: tomato;
+    color: yellow;
+  }
+
+/*HOVERS- ayuda no sé como quitar renundancia*/
+
+.btnicono:hover {
+    background-image: url("images/icono2.png");
+    border-radius: 30%;
+}
+
+.btn1:hover {
+    border-radius: 30%;
+}
+
+.btn2:hover {
+    border-radius: 30%;
+}
+
+.btn3:hover {
+    border-radius: 30%;
+}
+
+.btn4:hover {
+    border-radius: 30%;
+}
+
+.anadir:hover {
+    border-radius: 30%;
+    background-image: url("images/servidores/plusb.png");
+}
+
+.explora:hover {
+    border-radius: 30%;
+    background-image: url("images/servidores/compb.png");
+}
+
+.desk:hover {
+    border-radius: 30%;
+    background-image: url("images/servidores/downb.png");
+}
+
+/*FIN HOVERS*/
