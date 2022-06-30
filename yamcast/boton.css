@@ -1,6 +1,6 @@
 .barraIzquierda {
     min-height: 0px;
-    min-width:72px; 
+    min-width: 72px;
     overflow: auto;
 }
 
@@ -8,21 +8,21 @@
     width: 1px;
 }
 
-.linea{
-width: 6px;
-height: 50%;
-border-radius: 10px;
-margin: 0px;
-background-color: transparent;
+.linea {
+    width: 6px;
+    height: 50%;
+    border-radius: 10px;
+    margin: 0px;
+    background-color: transparent;
 }
 
 
 .cajaIconos {
     width: 100%;
     height: 55px;
-    display:flex;
+    display: flex;
     column-gap: 3px;
-align-items: center;
+    align-items: center;
 }
 
 .cajaIconos:hover .linea {
@@ -33,7 +33,6 @@ align-items: center;
     background-color: blueviolet;
     border-radius: 40%;
     align-self: center;
-
 }
 
 /* para icono y bloques discord*/
@@ -43,7 +42,7 @@ align-items: center;
     background-image: url("images/icono.png");
     border-radius: 50%;
     background-position: 50% 50%;
-    border-color: #202225;
+    border: none;
     transition: 0.3s;
 }
 
@@ -52,11 +51,15 @@ align-items: center;
     justify-content: center;
     align-items: center;
     padding-top: 10px;
-    padding-bottom: 10px;
-    border: 0px;
-    border-bottom: 1px;
-    border-style: solid;
-    border-color: aliceblue;
+
+}
+
+.entreEsp {
+    height: 2px;
+    width: 32px;
+    background-color: #36393f;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 /* fin icono ciscord*/
@@ -68,6 +71,7 @@ align-items: center;
     height: 50px;
     background-position: 50% 50%;
     border-radius: 50%;
+    border: none;
     border-color: #202225;
     transition: 0.3s;
 }
@@ -76,9 +80,11 @@ align-items: center;
     background-image: url("images/servidores/server2.png");
     width: 50px;
     height: 50px;
+    border: none;
     background-position: 20% 10%;
     border-radius: 50%;
     transition: 0.3s;
+    border-color: #202225;
 }
 
 .btn3 {
@@ -87,8 +93,9 @@ align-items: center;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    border: none;
     transition: 0.3s;
-
+    border-color: #202225;
 }
 
 .btn4 {
@@ -97,14 +104,18 @@ align-items: center;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    border: none;
     transition: 0.3s;
+    border-color: #202225;
 }
 
 .anadir {
     background-image: url("images/servidores/plus.png");
     background-position: 50% 50%;
     width: 50px;
+    border: none;
     height: 50px;
+    border-color: #202225;
     border-radius: 50%;
     transition: 0.3s;
     transition: 0.3s;
@@ -114,20 +125,82 @@ align-items: center;
     background-image: url("images/servidores/comp.png");
     background-position: 50% 50%;
     width: 50px;
+    border: none;
     height: 50px;
     border-radius: 50%;
     transition: 0.3s;
     transition: 0.3s;
+    border-color: #202225;
 }
 
 .desk {
     background-image: url("images/servidores/down.png");
-    background-position: 50% 50%;
     width: 50px;
     height: 50px;
+    background-position: 50% 50%;
+    border: none;
     border-radius: 50%;
     transition: 0.3s;
-    transition: 0.3s;
+}
+
+.hast {
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/hiloa.PNG");
+}
+
+.noti{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/notifica.PNG");
+}
+
+.pino{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/pin.PNG");
+}
+
+.pepo{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/peop.PNG");
+}
+
+.eso{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/eso.PNG");
+}
+
+.inc{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    background-image: url("images/superior/inco.PNG");
 }
 
 /*fin botones*/
@@ -140,46 +213,73 @@ align-items: center;
 
 
 .tippy-tooltip.tomato-theme {
-    background-color: tomato;
-    color: yellow;
-  }
+    background-color: black;
+}
 
 /*HOVERS- ayuda no sé como quitar renundancia*/
 
 .btnicono:hover {
     background-image: url("images/icono2.png");
     border-radius: 30%;
+    cursor: hand;
 }
 
 .btn1:hover {
     border-radius: 30%;
+    cursor: hand;
 }
 
 .btn2:hover {
     border-radius: 30%;
+    cursor: hand;
 }
 
 .btn3:hover {
     border-radius: 30%;
+    cursor: hand;
 }
 
 .btn4:hover {
     border-radius: 30%;
+    cursor: hand;
 }
 
 .anadir:hover {
     border-radius: 30%;
+    cursor: hand;
     background-image: url("images/servidores/plusb.png");
 }
 
 .explora:hover {
     border-radius: 30%;
+    cursor: hand;
     background-image: url("images/servidores/compb.png");
 }
 
 .desk:hover {
     border-radius: 30%;
+    cursor: hand;
     background-image: url("images/servidores/downb.png");
 }
 
+
+.hast:hover {
+    background-position: 50% 50%;
+    background-image: url("images/superior/hilob.PNG");
+}
+
+.noti:hover {
+    background-position: 50% 50%;
+    background-image: url("images/superior/notificab.PNG");
+}
+
+.pino:hover{
+    background-position: 50% 50%;
+    background-image: url("images/superior/pinb.PNG");
+}
+
+.pepo:hover{
+    background-position: 50% 50%;
+    background-image: url("images/superior/peopb.PNG");
+}
 /*FIN HOVERS*/

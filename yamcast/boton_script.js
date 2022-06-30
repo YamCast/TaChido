@@ -11,14 +11,14 @@ tippy('#mylogo', {
   content: "Inicio",
   placement: 'right',
   animation: 'perspective',
-  theme: 'fondo',
+  theme: 'tomato-theme',
 });
 
 tippy('#server1', {
   content: "Servidor 1",
   placement: 'right',
   animation: 'perspective',
-  theme: 'fondo',
+  theme: 'tomato-theme',
 });
 
 tippy('#server2', {

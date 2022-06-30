@@ -8,6 +8,7 @@
     width: 90%;
     height: fit-content;
     padding: 4px;
+    padding-bottom: 10px;
 }
 
 .barraDerecha {
@@ -19,6 +20,7 @@
     color: aliceblue;
     overflow: hidden scroll;
     padding: 5px;
+    gap:10px;
     justify-content: space-between;
 }
 
@@ -38,14 +40,22 @@
 
 .conteneBarraDerecha {
     gap:5px;
+    display: flex;
     height: 42px;
     width: 244px;
     padding: 3px;
     color:rgb(206, 57, 82);
+    align-items: center;
+    opacity: 50%;
 }
 
 
 .conteneBarraDerecha:hover  {
     cursor: pointer;
     background-color: #3c3e45;
+    opacity: 100%;
+}
+
+.barraDerecha:hover {
+    opacity: 100%;
 }

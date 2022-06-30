@@ -2,11 +2,10 @@
     height: 100vh;
     width: 100vw;
     display: flex;
-
     overflow: hidden;
     background-color: #202225;
-}
 
+}
 
 .barraSuperior {
     display: flex;
@@ -22,29 +21,36 @@
     padding: 2px;
 }
 
+
+
 .paraAjustes {
     display: flex;
     width: fit-content;
     height: 90%;
-
-    background-color: rgb(61, 145, 151);
 }
 
 .nombreenBarra{
     width: 100%;
+    display: flex;
     font-size: 20px;
     color:aliceblue;
+    text-align: center;
 }
 
-.nombreenBarra:hover{
-    background-color: red;
+.pin{
+display: flex;
+align-items: center;
+  justify-content: center;
+
 }
+
+
+
 /* comunicarse, parte pa escribir chat e imagenes */
 .centro {
     flex: 1;
     background-color: #36393f;
     margin: 0%;
-    overflow: hidden scroll;
 }
 
 .centro::-webkit-scrollbar {
@@ -52,34 +58,52 @@
     height: 10%;
 }
 
-.barraChatear {
+.escriboArriba{
     width: 98%;
     height: 20px;
-    border-radius: 20%;
-    background-color: aquamarine;
+    border-radius: 5px;
+    background-color: #2f3136;
+    
+}
+
+.barraChatear {
+    background-color: #40444b;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    min-width: 0px;
+    height: 8%;
+    margin-bottom: 35;
+    border-radius: 10px;
+}
+
+.contCentro{
+    
+    display: flex;
+    height: 95vh;
+    width: 80%;
+    color: aliceblue;
+    overflow: hidden scroll;
+    padding: 5px;    
+}
+
+.contCentro::-webkit-scrollbar {
+    width: 10px;
+border-right: 10px;
+border-right: red;
+}
+
+.contCentro::-webkit-scrollbar-thumb {
+    background-color: #2f3136;
+    border-radius: 20px;
+    height: 10%;
+    
 }
 
 /* fin comunicacion */
 
-/* agregar texto para chatear y scroll */
-.texto {
-    width: 80%;
-    height: 95vh;
-    overflow: hidden scroll;
-    padding-right: 0px;
-}
-
-.texto::-webkit-scrollbar {
-    width: 3px;
-    height: 10%;
-}
-
-.texto::-webkit-scrollbar-thumb {
-    background-color: #2f3136;
-    border-radius: 20px;
-}
-
-/* fin scroll */
 
 
 
@@ -87,6 +111,7 @@
     flex: 1;
     display: flex;
     flex-direction: row;
+    position: sticky;
     background-color: #36393f;
     margin: 0%;
 }
@@ -99,4 +124,5 @@
     background-color: #2f3136;
     overflow: hidden scroll;
     padding-right: 0px;
+    
 }
