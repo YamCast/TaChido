@@ -203,18 +203,44 @@
     background-image: url("images/superior/inco.PNG");
 }
 
+
+
+.audio{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    border: none;
+    background-image: url("images/micro.png");
+}
+
+.olle{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    border: none;
+    background-image: url("images/bajo/escucha.PNG");
+}
+
+.esho{
+    background-position: 50% 50%;
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    border: none;
+    background-image: url("images/bajo/esho.PNG");
+}
+
+
 /*fin botones*/
 .imagenesziquierda {
     display: table;
     align-items: center;
     max-width: 3px;
+    border: none;
 }
 
-
-
-.tippy-tooltip.tomato-theme {
-    background-color: black;
-}
 
 /*HOVERS- ayuda no sé como quitar renundancia*/
 
