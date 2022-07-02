@@ -1,4 +1,6 @@
-<html lang="en"><head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,110 +9,426 @@
     <link rel="stylesheet" href="personas.css">
     <link rel="stylesheet" href="baseMenuChats.css">
     <link rel="stylesheet" href="boton.css">
-    <link rel="stylesheet" href="https://cdn2.iconfinder.com/data/icons/math-numbers-1/24/number-256.png">
-
+    <link rel="stylesheet" href="boton_script.js">
+    <link rel="stylesheet" href="colorTyppy.css">
     <style>
-           
+       
     </style>
-    
+
 </head>
 
 
-<body style="margin:0%;">
-        
-    <div class="general">
+
+<body style="margin:0%; vertical-align: baseline;">
     
-        <div class="barraIzquierda" style= "text-align: center;">
-            <div class="servidores">
-                <img class="imagenesziquierda" src="images/icono.png" onmouseover="this.src='images/icono2.png'" onmouseout="this.src='images/icono.png'">
-                <img class="imagenesziquierda" src="images/servidores/server1.png" title="Duo">
-                <img class="imagenesziquierda" src="images/servidores/server2.png" title="Carro">
-                <img class="imagenesziquierda" src="images/servidores/server3.png" title="Dogo">
-                <img class="imagenesziquierda" src="images/servidores/server4.png" title="Bonnie">
+
+
+    <div class="general">
+        <div class="barraIzquierda">
+
+            <div class="espIcono" style=" display: flex;  flex-direction: column;">
+                <div class="linea"></div>
+                <button id="mylogo" class="btnicono"></button>
+
+                <div class="entreEsp"></div>
+                <div class="cajaIconos">
+                    <div class="linea"></div>
+                    <button id="server1" class="btn1"></button>
+                </div>
+
+                <div class="cajaIconos">
+                    <div class="linea"></div>
+                    <button id="server2" class="btn2"></button>
+                </div>
+                <div class="cajaIconos">
+                    <div class="linea"></div>
+                        <button id="server3" class="btn3"></button>
+                    
+                </div>
+                <div class="cajaIconos">
+                    <div class="linea"></div>
+                    <button id="server4" class="btn4"></button>
+                </div>
+                <div class="cajaIconos">
+                    <div class="linea"></div>
+                    <button id="anadirServidor" class="anadir"></button>
+                </div>
+                <div class="cajaIconos">
+                    <div class="linea"></div>
+                    <button id="explora" class="explora"></button>
+                </div>
+
+                <div class="entreEsp"></div>
+                <div class="cajaIconos">
+                    <div class="linea"></div>
+                    <button id="descarg" class="desk"></button>
+                </div>
+
             </div>
 
         </div>
-    
+
         <div class="menuPersonas">
-    
-            <div class="contenedor" >
-                <div class = "nomServer" >Nombre del Server <img src="images/desplegable.png" style="width: 15px;"></div>
-                <img src="images/invitacion.png" style="margin:30px">
-                
-                <div>Comienza una aventura.</div>
-                <button class="boton">Invitar gente</button>
+
+            <div class="contenedor">
+                <div class="nomServer">
+
+                        <p class="tittle">Nombre del server</p> 
+                        <img src="images/desplegable.png">
+
+                   
+                </div>
+
+                <img src="images/invitacion.png">
+                <div>
+                    <p class="p1">Comienza una aventura.</p>
+                    <button id="myBtn" class="boton">Comienza</button>
+                </div>
             </div>
-    
+
             <div class="invitarGente">
                 <div class="persojunior">
+                    <div class="tittleGrupoMenu1"></div>
+                    <div class="menu1"></p> </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p"> </p> </div>
+                        <p class="p"> </p> 
+
+                    <div class="menu1"> 
+                        </div> 
+                </div>
+                <div class="persojunior">
                     <div class="tittleGrupoMenu1">꒷꒦información꒷꒦</div>
-                    <div class="menu1" ><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🌹꒱usuarios-nuevos </div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;"> ꒰📕꒱las-reglas</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;"> ꒰📢꒱anuncios</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🌟꒱eventos </div>
+                    <div class="menu1">
+                        <img src="images/Hastag.png">
+                        <p class="p" > ꒰🌹꒱usuarios-nuevos</p> 
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p" > ꒰📕꒱las-reglas</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                     </div>
+                    <div class="menu1"><img src="images/Hastag.png"> 
+                        <p class="p"> ꒰📢꒱anuncios</p>  
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p"> ꒰🌟꒱eventos</p> 
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div> 
                 </div>
                 <div class="persojunior">
                     <div class="tittleGrupoMenu1">꒷꒦Server꒷꒦</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🎏꒱roles-personalizados</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🌴꒱general</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🐞꒱spam</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰☁꒱desahogos-y-quejas</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🌿꒱debates</div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p"> ꒰🎏꒱roles-personalizados</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div> 
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p">  ꒰🌴꒱general</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div> 
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p"> ꒰🐞꒱spam</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p"> ꒰☁꒱desahogos-y-quejas </p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p"> ꒰🌿꒱debates</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
                 </div>
                 <div class="persojunior">
                     <div class="tittleGrupoMenu1">꒷꒦MultimediaÑÑ꒷꒦</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🍉꒱multimedia</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🦍꒱momos-🤓</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰✨꒱out-of-context</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🐭꒱noticiero-de-ocs-gómez</div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p">꒰🍉꒱multimedia</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p">꒰🦍꒱momos-🤓</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p">꒰✨꒱out-of-context </p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p">꒰🌈꒱chetiquiroso</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
                 </div>
-    
                 <div class="persojunior">
                     <div class="tittleGrupoMenu1">꒷꒦Arte꒷꒦</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🎨꒱dibujos</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🌈꒱animaciones</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🖼꒱wips☆</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🌸꒱pizarra-xd</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;">꒰🖌꒱ideas-para-dibujos</div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p">꒰🎨꒱dibujos</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p"> ꒰🌈꒱animaciones </p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p">꒰🖼꒱wips☆</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p">꒰🌸꒱pizarra-xd </p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p">꒰🖌꒱ideas-para-dibujos</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
                 </div>
                 <div class="persojunior">
                     <div class="tittleGrupoMenu1">꒷꒦Cheesus꒷꒦</div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;"> </div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;"> </div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;"> </div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;"> </div>
-                    <div class="menu1"><img src="images/Hastag.png" style="width: 30px;height: 20px;"> </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p">꒰🌸꒱pizarra-xd </p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
+                    <div class="menu1"><img src="images/Hastag.png">
+                        <p class="p">꒰🖌꒱ideas-para-dibujos</p>
+                        <div class="paicons">
+                            <img src="images/bajo/invita.PNG">
+                            <img src="images/bajo/gaje.png">
+                        </div> 
+                    </div>
                 </div>
-                <div class="usuario"><img src="images/carausuario.png" style="border-radius: 50%; width: 15%;height: 90%;"> 
-                    <h1>💫H O P E💫#5741</h1>
+                <div class="usuario"><img src="images/carausuario.png"
+                        style="border-radius: 50%; width: 20%;height: 90%;">
+                    <h1 class="text" style="align-items: flex-start;">💫H O P E💫</h1>
+                    
+                    <button id="micro" class="audio" style="align-content: center;"></button>
+                    <button id="auricu" class="olle" style="align-content: center;"></button>
+                    <button id="ajustes" class="esho" style="align-content: center;"></button>
                 </div>
             </div>
 
 
         </div>
-    
 
-            
-        <div class="centro" style="align-items: flex-end;">
-             <div class="menu1" style="flex:1;margin:0%; height: 5%; justify-content: end;">
-                    <div class="chat"> <img src="images/notifica.png" ><img src="images/pin.png" ></div>           
+
+        <div class="centro">
+
+            <div class="barraSuperior" style="flex:1;margin:0%; height: 5%; justify-content: end;">
+                <div class="paraNombre">
+                    <div class="nombreenBarra">
+                        <img src="images/Hastag.png">
+                        <p class= "tittle">Nombre del Canal</p>
+                    </div>
                 </div>
 
+                <div class="paraAjustes">
+                    <div class="pin">
+                        <button class="hast"></button>
+                    </div>
+                    <div class="pin">
+                        <button class="noti"></button>
+                    </div>
+                    <div class="pin">
+                        <button class="pino"></button>
+                    </div>
+                    <div class="pin">
+                        <button class="pepo"></button>
+                    </div>
+                   
+                </div>
+                
+                <div class="escriboArriba"></div>
 
-           <div class="paracentro">
-            <div class="texto"><img src="https://gifdanceparty.com/dancers/dancer_lshark.gif">
+                <div class="paraAjustes">
+                    <div class="pin">
+                        <button class="eso"></button>
+                    </div>
+                    <div class="pin">
+                        <button class="inc"></button>
+                    </div>
+                   
+                </div>
             </div>
 
-            <div class="barraDerecha">
-                <div class="contenebarraDerecha"></div>                 <div class="contenebarraDerecha"></div> 
-                <div class="contenebarraDerecha"></div>                 <div class="contenebarraDerecha"></div> 
-            </div> 
+
+            <div class="paraCentro">
+                <div class="contCentro">
+
+                    <div class="barraChatear" >
+
+                        <div style="display:flex; align-self:left; min-width: 0px;">
+                            <img src="images/bajo/mas.PNG" style="padding: 5px;">
+                        </div>
+                        <div style="margin-left: auto;margin-right: 0px;">
+                            <img src="images/bajo/rega.png" style="min-width: 0px;padding: 5px;">
+                            <img src="images/bajo/gif.png" style="min-width: 0px;padding: 5px;">
+                            <img src="images/bajo/carita.PNG" style="min-width: 0px;padding: 5px;">
+                            <img src="images/bajo/cara.png" style="min-width: 0px;padding: 5px; padding-right: 10px;">
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="barraDerecha">
+                    <div class="usuarioPro">
+                        <div class="tittle2"> Usuario Pro</div>
+                        <div class="conteneBarraDerecha"Style="opacity:100%">
+                            <img src="images/carausuario.png" style="border-radius: 50%; width: 20%;height: 90%;">
+                            <text>Yo</text>
+                        </div>
+                    </div>
+
+                    <div class="usuariopro" style="padding-top: 15px;">
+                        <div class="tittle2"> Bots</div>
+                        <div class="contenebarraDerecha" Style="opacity:100%">
+                           
+                            <img src="images/bot.png" style="border-radius: 50%; width: 32px;height: 32px;">
+                            <div>
+                                <div style="display:flex; ">
+                                <p class="pbot">Carmelita </p>
+                                <div id="bot" class="botTittle">✓BOT</div>
+                            </div>
+                            <p class="text">esteesunbot</p>
+                            </div>
+                            
+                        </div>
+                        <div class="contenebarraDerecha"Style="opacity:100%">
+                            <img src="images/bot.png" style="border-radius: 50%; width: 32px;height: 32px;">
+                           
+                            <div>
+                                <div style="display:flex; ">
+                                    <p class="pbot">Dv4 </p>
+                                    <div id="bot" class="botTittle">✓BOT</div>
+                                </div>
+                                <p class="text">Jugando pato pato ganso</p>
+                            </div> 
+                        </div>
+                        <div class="contenebarraDerecha"Style="opacity:100%">
+                            <img src="images/bot.png" style="border-radius: 50%; width: 32px;height: 32px;">
+                            
+                            <div>
+                                <div style="display:flex; ">
+                                    <p class="pbot">CarmelitaJunior </p>
+                                    <div id="bot" class="botTittle">✓BOT</div>
+                                </div>
+                                <p class="text">Escuchando usuarios</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="usuariosdesconectados">
+                        <div class="tittle2"> Usuarios Conectados</div>
+                       
+                        <div class="conteneBarraDerecha">
+                            <img src="images/usser.png" style="border-radius: 50%; width: 32px;height: 32px;">
+                            <p class="p">Ching Chong </p>
+                        </div>
+                    </div>
+                    <div class="usuariosdesconectados">
+                        <div class="tittle2"> Usuarios Desconectados</div>
+                       
+                        <div class="contenebarraDerecha">
+                            <img src="images/usser2.png" style="border-radius: 50%; width: 32px;height: 32px;">
+                                <p class="p">Patatudo </p>
+                        </div>
+                        <div class="contenebarraDerecha">
+                            <img src="images/usser3.png" style="border-radius: 50%; width: 32px;height: 32px;">
+                            <p class="p">Chiwawa</p>
+                        </div>
+                        <div class="contenebarraDerecha">
+                            <img src="images/usser4.png" style="border-radius: 50%; width: 32px;height: 32px;">
+                            <p class="p">Pata </p>
+                        </div>
+                        <div class="conteneBarraDerecha">
+                            <img src="images/servidores/server2.png"
+                                style="border-radius: 50%; width: 32px;height: 32px;">
+                                <p class="p">This </p>
+                            </div>
+                        <div class="contenebarraDerecha">
+                            <img src="images/usser2.png" style="border-radius: 50%; width: 32px;height: 32px;">
+                            <p class="p">Chango </p>
+                        </div>
+                        <div class="contenebarraDerecha">
+                            <img src="images/usser3.png" style="border-radius: 50%; width: 32px;height: 32px;">
+                            <p class="p">H </p>
+                        </div>
+                        <div class="contenebarraDerecha">
+                            <img src="images/usser4.png" style="border-radius: 50%; width: 32px;height: 32px;">
+                            <p class="p">Chessusito </p>
+                        </div>
+                        <div class="conteneBarraDerecha">
+                            <img src="images/servidores/server2.png" style="border-radius: 50%; width: 32px;height: 32px;">
+                            <p class="p">Guili </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-        </div> 
-</div>      
-    
+        </div>
+    </div>
 
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="boton_script.js"></script>
 
-     
-</body></html>
+</body>
+
+</html>
